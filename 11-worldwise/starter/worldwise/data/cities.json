@@ -1,0 +1,16 @@
+{
+  "cities": [
+    {
+      "cityName": "Attock",
+      "country": "Pakistan",
+      "emoji": "🇵🇰",
+      "date": "2023-08-26T08:53:29.787Z",
+      "notes": "",
+      "position": {
+        "lat": "33.77519173537694",
+        "lng": "72.36213684082033"
+      },
+      "id": 1
+    }
+  ]
+}
