@@ -1,14 +1,14 @@
 {
   "cities": [
     {
-      "cityName": "Attock",
-      "country": "Pakistan",
-      "emoji": "🇵🇰",
-      "date": "2023-08-26T08:53:29.787Z",
+      "cityName": "Fresneda de Altarejos",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-09-05T15:22:30.876Z",
       "notes": "",
       "position": {
-        "lat": "33.77519173537694",
-        "lng": "72.36213684082033"
+        "lat": "39.95012304674877",
+        "lng": "-2.3291015625000004"
       },
       "id": 1
     }
