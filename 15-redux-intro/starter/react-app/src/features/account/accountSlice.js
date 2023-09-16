@@ -22,13 +22,16 @@ export default function accountReducer(state = initialStateAccount, action) {
       if (state.loan > 0) return state;
       return {
         ...state,
-        loan: action.payload.purpose,
+        loan: action.payload.amount,
+        loanPurpose: action.payload.loanPurpose,
+        balance: state.balance + action.payload.amount,
       };
     case "account/payLoan":
       if (state.loan > 0) return state;
       return {
         ...state,
         loan: 0,
+        loanPurpose: "",
         balance: state.balance - state.loan,
       };
 
@@ -41,8 +44,9 @@ export default function accountReducer(state = initialStateAccount, action) {
     default:
       return state;
   }
-}p
+}
 
+// Action Creators
 export function deposit(amount, currency) {
   if (currency === "USD") return { type: "account/deposit", payload: amount };
   return async function (dispatch, getState) {

@@ -1,5 +1,5 @@
-import accountReducer from "./features/account/accountSlice";
-import customerReducer from "./features/customer/customerSlice";
+import accountReducer from "./features/account/accountSlice-rtk";
+import customerReducer from "./features/customer/customerSlice-rtk";
 import { configureStore } from "@reduxjs/toolkit";
 
 const store = configureStore({
